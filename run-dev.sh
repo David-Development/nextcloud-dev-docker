@@ -1,4 +1,4 @@
 echo "Current folder: $(pwd)"
-make -C /usr/src/nextcloud/apps2/contacts
+make -C /var/www/html/apps2/contacts
 apache2-foreground
 #php-fpm
