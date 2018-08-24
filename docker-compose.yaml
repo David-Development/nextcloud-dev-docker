@@ -1,0 +1,14 @@
+version: '2'
+
+volumes:
+  nextcloud:
+
+services:
+  app:
+    build: .
+    ports:
+      - 8080:80
+    volumes:
+      - nextcloud:/var/www/html
+      #- ./data:/var/www/html/data
+      - ./apps/contacts:/var/www/html/apps2/contacts:rw # we need rw here, otherwise make doesn't work
