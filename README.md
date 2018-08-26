@@ -3,7 +3,17 @@
 
 ## TL;DR
 
+In a terminal, paste and run these commands. :)
+
 ### On Mac or Linux
+Install prerequisites:
+```
+sudo apt install docker-compose
+sudo systemctl start docker
+sudo usermod -aG docker yourusername
+```
+Then log out and log back in again.
+
 ```
 git clone https://github.com/David-Development/nextcloud-dev-docker.git
 cd nextcloud-dev-docker/apps/
