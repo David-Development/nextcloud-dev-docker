@@ -11,6 +11,9 @@ RUN    apt-get update \
     && apt-get install -y nodejs \
     && rm -rf /var/lib/apt/lists/*
 
+RUN    apt-get update \
+    && apt-get install -y git \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /usr/src/nextcloud/apps2
 RUN mkdir -p /var/www/html/custom_apps
