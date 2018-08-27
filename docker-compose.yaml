@@ -11,6 +11,4 @@ services:
     volumes:
       - nextcloud:/var/www/html
       #- ./data:/var/www/html/data
-      - ./apps/contacts:/var/www/html/apps2/contacts:rw
-      - ./apps/vueexample:/var/www/html/apps2/vueexample:rw
-
+      - ./apps:/var/www/html/apps2:rw
