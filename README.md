@@ -38,9 +38,7 @@ This docker setup allows you to setup a development environment in just a few mi
 
 ## How to work/develop on a different app
 
-Just clone the app that you want to work on into the apps folder which can be found in this directory. After that, open the `docker-compose.yaml` file and add the following line to the volumes section: `- ./apps/<app-name-here>:/var/www/html/apps2/<app-name-here>:rw` (make sure to replace the `<app-name-here>` with the actual app name that you want to work on)
-
-After that, open the `run.sh` which is located in this folder and change the `make` command to match the app that you want to work on.
+Just clone the app that you want to work on into the apps folder which can be found in this directory. After that, open the `run.sh` which is located in this folder and add the required build commands. There are already a few examples included in the `run.sh` file.
 
 
 ## destroy
