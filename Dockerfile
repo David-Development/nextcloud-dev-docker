@@ -14,6 +14,8 @@ RUN    apt-get update \
     && apt-get install -y git \
     && rm -rf /var/lib/apt/lists/*
 
+RUN npm install npm-watch
+
 RUN mkdir -p /usr/src/nextcloud/apps2
 RUN mkdir -p /var/www/html/custom_apps
 
