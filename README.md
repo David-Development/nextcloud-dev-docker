@@ -1,20 +1,34 @@
 # nextcloud-dev-docker
 
+## Prerequisites
+
+### Linux:
+
+```bash
+sudo apt install docker-compose
+sudo systemctl start docker
+sudo usermod -aG docker $USER
+```
+Then log out and log back in again.
+
+### Mac:
+
+- Docker for Mac: https://store.docker.com/editions/community/docker-ce-desktop-mac
+
+### Windows:
+
+- Docker for Windows: https://store.docker.com/editions/community/docker-ce-desktop-windows
+- Install git: https://git-scm.com/download/win
+
+
 
 ## TL;DR
 
 In a terminal, paste and run these commands. :) After starting up the container you will be able to edit the calendar app (which can be found in the apps/calendar folder). Any changes you make will be automatically updated. Just head over to your browser and hit the reload button to see the changes.
 
 ### On Mac or Linux
-Install prerequisites:
-```
-sudo apt install docker-compose
-sudo systemctl start docker
-sudo usermod -aG docker yourusername
-```
-Then log out and log back in again.
 
-```
+```bash
 git clone https://github.com/David-Development/nextcloud-dev-docker.git
 cd nextcloud-dev-docker/apps/
 git clone -b vue https://github.com/nextcloud/contacts.git
@@ -23,7 +37,8 @@ docker-compose up --build
 ```
 
 ### On Windows
-```
+
+```bash
 git clone https://github.com/David-Development/nextcloud-dev-docker.git --config core.autocrlf=input
 cd nextcloud-dev-docker/apps/
 git clone -b vue https://github.com/nextcloud/contacts.git --config core.autocrlf=input
