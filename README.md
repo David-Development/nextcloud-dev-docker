@@ -14,6 +14,7 @@ Then log out and log back in again.
 ### Mac:
 
 - Docker for Mac: https://store.docker.com/editions/community/docker-ce-desktop-mac
+  - Download without login: https://download.docker.com/mac/stable/Docker.dmg
 
 ### Windows:
 
