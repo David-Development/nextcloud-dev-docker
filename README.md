@@ -14,11 +14,12 @@ Then log out and log back in again.
 ### Mac:
 
 - Docker for Mac: https://store.docker.com/editions/community/docker-ce-desktop-mac
-  - Download without login: https://download.docker.com/mac/stable/Docker.dmg
+  - Direct download: https://download.docker.com/mac/stable/Docker.dmg
 
 ### Windows:
 
 - Docker for Windows: https://store.docker.com/editions/community/docker-ce-desktop-windows
+  - Direct download: https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
 - Install git: https://git-scm.com/download/win
 
 
