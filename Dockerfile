@@ -1,5 +1,5 @@
-#FROM nextcloud:14.0.0beta4-fpm
-FROM nextcloud:14.0.0beta4-apache
+#FROM nextcloud:14.0.1-fpm
+FROM nextcloud:14.0.1-apache
 
 RUN    apt-get update \
     && apt-get install -y gnupg \
