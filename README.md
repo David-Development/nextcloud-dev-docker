@@ -33,7 +33,7 @@ In a terminal, paste and run these commands. :) After starting up the container 
 ```bash
 git clone https://github.com/David-Development/nextcloud-dev-docker.git
 cd nextcloud-dev-docker/apps/
-git clone -b vue https://github.com/nextcloud/contacts.git
+git clone https://github.com/nextcloud/contacts.git
 cd ..
 docker-compose up --build
 ```
@@ -43,7 +43,7 @@ docker-compose up --build
 ```bash
 git clone https://github.com/David-Development/nextcloud-dev-docker.git --config core.autocrlf=input
 cd nextcloud-dev-docker/apps/
-git clone -b vue https://github.com/nextcloud/contacts.git --config core.autocrlf=input
+git clone https://github.com/nextcloud/contacts.git --config core.autocrlf=input
 cd ..
 docker-compose up --build
 ```
